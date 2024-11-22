@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first test project</title>
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
-     <link rel="stylesheet" href="assets/css/style.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-      <nav>
-          <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">Logo</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="www.google.com">Google</a></li>
-                  <li><a href="Contact.html">Contact</a></li>
-                  <li><a href="help.html">Help</a></li>
-              </ul>
-          </div>
-      </nav>
 
-      <ul class="sidenav" id="mobile-demo">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="AboutUs.html">About Us</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="help.html">Help</a></li>
-      </ul>
+<body>
+    <nav class="z-depth-2">
+        <div class="nav-wrapper deep-purple lighten-4">
+            <a href="#!" class="brand-logo black-text">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html" class="black-text">Home</a></li>
+                <li><a href="AboutUs.html" class="black-text">About Us</a></li>
+                <li><a href="Contact.html" class="black-text">Contact</a></li>
+                <li><a href="help.html" class="black-text">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="./assets/images/office-manager-room.webp" class="width_100">
+                </div>
+                <a href="#user"><img class="circle" src="assets/images/photo_2024-08-17_04-42-29.jpg"></a>
+                <a href="#name"><span class="white-text name">Maryam Hajishabani</span></a>
+                <a href="#email"><span class="white-text email">maryam.hsh@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="https://www.google.com"><i class="material-icons">link</i>Google</a></li>
+        <li><a href="https://namirasoft.com"><i class="material-icons">link</i>Namirasoft</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="index.html">Home</a></li>
+        <li><a class="waves-effect" href="AboutUs.html">About Us</a></li>
+        <li><a class="waves-effect" href="Contact.html">Contact</a></li>
+        <li><a class="waves-effect" href="help.html">Help</a></li>
+    </ul>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
-     <script src="assets/materialize/js/materialize.min.js"></script>
-     <script src="assets/js/main.js"></script>
+    <script src="assets/materialize/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
